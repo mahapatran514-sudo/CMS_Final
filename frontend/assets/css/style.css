@@ -1,10 +1,15 @@
-/* Only for minor global tweaks */
+/* =========================
+   GLOBAL TWEAKS
+   ========================= */
 
 body {
   scroll-behavior: smooth;
+  position: relative;
+  min-height: 100vh;
 }
 
-/* Optional: animate alert fade */
+/* Alert animation */
 #alertContainer > div {
   transition: all 0.3s ease;
 }
+
