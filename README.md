@@ -9,9 +9,9 @@ This project simulates how a real clinic operates digitally by managing:
 
 It is designed mainly for learning full-stack web development concepts and is ideal for academic / final-year projects.  
 
-🚀## What This Project Demonstrates
+## 🚀 What This Project Demonstrates
 
-🔹 ### Full-Stack Development Basics
+### 🔹  Full-Stack Development Basics
 
 - REST API design using Python
 - Frontend–backend communication using HTTP
@@ -19,7 +19,7 @@ It is designed mainly for learning full-stack web development concepts and is id
 - Manual routing without frameworks
 - SQLite database integration
 
-🎨### Frontend Concepts
+### 🎨 Frontend Concepts
 
 - Single Page Application (SPA) architecture
 - Dynamic routing without page reload
@@ -34,7 +34,7 @@ It is designed mainly for learning full-stack web development concepts and is id
 - API consumption using fetch
 - UI state handling (edit / view mode)
 
-🧠 ### Backend Concepts
+### 🧠  Backend Concepts
 - Python HTTP server using BaseHTTPRequestHandler
 - Custom routing system
 - API routes vs UI routes
@@ -46,9 +46,12 @@ It is designed mainly for learning full-stack web development concepts and is id
 - SQLite database queries
 - Error handling & HTTP status codes
 - CORS handling for frontend access
+  
 
+## 🏗️ Project Structure
 
-🏗️ ## Project Structure
+![image](image-1.png)
+
 CMS/
 │
 ├── app.py                         # Entry point – starts Python server
@@ -130,8 +133,8 @@ CMS/
 └── __pycache__/                   # Python cache (auto-generated)
 
 
-🔌 ##How the Application Works (Big Picture)
-1️⃣ ###User Opens the App
+## 🔌How the Application Works (Big Picture)
+### 1️⃣User Opens the App
 
 - Browser loads index.html
 - SPA router dynamically loads pages:
@@ -139,3 +142,5 @@ CMS/
 - Patients
 - Doctors
 - Billing
+
+[def]: image.png
